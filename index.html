@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title> www.nie.lk</title>
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<script src="js/jquery-3.5.1.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="loader.css">
+	<!--navigation css js cdn-->
+
+	<link rel="stylesheet" href=" style/nav.css">
+	<link rel="stylesheet" href=" style/img.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<!--card css js and cdn-->
+
+	<link rel="stylesheet" type="text/css" href="style/card.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<!------------------------------------------------->
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+</head>
+<body >
+
+<!--navigation-->
+
+<div class="container-fluid">
+<nav  >
+
+	 <div class="logo">
+NIE.LK</div>
+<label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+<li><a href="index.html">Home</a></li>
+<li>
+          <label for="btn-1" class="show">Information +</label>
+          <a href="#">Information </a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+<li><a href="comingsoon.html">genaral information</a></li>
+<li><a href="comingsoon.html"> organaizational structure</a></li>
+<li><a href="comingsoon.html"> Direcctor General</a></li>
+<li><a href="comingsoon.html">The Council </a></li>
+</ul>
+</li>
+
+<li>
+          <label for="btn-2" class="show">institute +</label>
+          <a href="#">institute instructure</a>
+          <input type="checkbox" id="btn-2">
+          <ul>
+<li><a href="comingsoon.html"> director genaral hospital</a></li>
+<li><a href="comingsoon.html">Humanaties, Languages and Social Sciences</a></li>
+<li><a href="comingsoon.html">Science and Technology</a></li>
+<li><a href="comingsoon.html"> Teacher Ed. and Aulternative Ed. </a></li>
+</ul>
+</li>
+
+<li>
+          <label for="btn-3" class="show">online +</label>
+          <a href="#">Online</a>
+          <input type="checkbox" id="btn-3">
+          <ul>
+<li><a href="comingsoon.html"> Suggestions for new curricula </a></li>
+<li><a href="comingsoon.html">AL ICT Teacher Training/Registration  </a></li>
+<li><a href="comingsoon.html"> AL ICT Teachers Area </a></li>
+<li><a href="comingsoon.html"> Register - other teachers </a></li>
+</ul>
+</li>
+
+<li>
+          <label for="btn-4" class="show">download +</label>
+          <a href="#">download</a>
+          <input type="checkbox" id="btn-4">
+          <ul>
+<li><a href="comingsoon.html"> Syllabus  </a></li>
+  <li><a href="comingsoon.html"> Teacher Guide </a></li>
+  <li><a href="comingsoon.html"> Other Materials </a></li>
+  <li><a href="comingsoon.html"> Display new materials </a></li>
+</ul>
+</li>
+
+
+
+<li><a href="contact.html"> contact us</a></li>
+
+<li><a href="about.html">about us </a></li>
+
+<li> <a href="login.html"> staff area</a>
+
+
+<li>
+          <label for="btn-5" class="show">medium +</label>
+          <a href="#">medium</a>
+          <input type="checkbox" id="btn-5">
+          <ul>
+<li><a href="comingsoon.html">English</a></li>
+      <li><a href="comingsoon.html">sinhala</a></li>
+      <li><a href="comingsoon.html">Tamil</a></li>
+</ul>
+</li>
+</ul>
+
+
+</nav>
+   
+<script>
+      $('.icon').click(function(){
+        $('span').toggleClass("cancel");
+      });
+    </script>
+	
+
+<!--end of nav-->
+
+<!--img slide show-->
+
+<
+
+<div class="container-fluid">
+
+ <div class="row">
+  	
+ <div class=" col-sm-12  col-md-6 col-lg-6 ">
+          
+<script>
+		var i=0;
+		var images=[];
+		var time=5000;
+
+
+		images[0]="img/11.jpg";
+		images[1]="img/2.jpg";
+		images[2]="img/nie.png";
+
+
+
+		function changeImg(){
+			document.slide.src=images[i];
+
+			if(i<images.length -1){
+				i++;
+			}else{
+				i=0;
+			}
+			setTimeout("changeImg()",time);
+		}
+
+		window.onload = changeImg;
+
+	</script>
+	<img class="img-fluid" name="slide" id="slide" >
+</div>
+
+<div class=" col-sm-12  col-md-6 col-lg-6">
+	
+	<h2 id="hed1">Our Vision</h2>
+	<p id="para1">To be a centre of excellence in providing leadership for quality education in a pluralistic and dynamic society.</p>
+	<h2 id="hed2">Our Mission</h2>
+	<p id="para2">To provide quality education for all, by developing curricula, enhancing professionalism and engaging in research to empower learners in order to realize their potential to build a humane society.
+	<img src="img/dg.jpg" id="dg" class="center"> </p>
+		Dr. Sunil Jayantha Nawaratna
+		 assumed duties as Director 
+		 General of the National 
+		 Institute of Education on 19th March, 
+		 2020.
+	</p>
+
+</div>
+
+</div>
+
+
+</div>
+
+<div class="container-fluid">
+<h2 id="newws">NEWS</h2>
+<div class="row">
+
+	
+<div class="wrapper col-sm-12  col-md-12 col-lg-12">
+      <div class="carousel owl-carousel">
+
+       <div class="card card-1"> 30th NIE Day celebration <br> 2016-12-31 </div>
+<div class="card card-2"> Dr. C. W. W. Kannangara Memorial Lecture - 28 - 2017</div>
+<div class="card card-3"> Dr. C. W. W. Kannangara Memorial Lecture - 29 - 2018</div>
+<div class="card card-4"> Dr. C. W. W. Kannangara Memorial Lecture - 30 - 2019</div>
+<div class="card card-5"> New building open   <br> 10.08.2020      </div>
+</div>
+</div>
+<script>
+      $(".carousel").owlCarousel({
+        margin: 20,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+          0:{
+            items:1,
+            nav: false
+          },
+          600:{
+            items:2,
+            nav: false
+          },
+          1000:{
+            items:3,
+            nav: false
+          }
+        }
+      });
+    </script>
+
+</div>
+</div>
+
+<div class="container-fluid">
+	<h2 id="newws">NIE</h2>
+	<div class="row"> 
+
+
+		<p class=" col-sm-12  col-md-12 col-lg-12" id="para10">The National Institute of Education (NIE), Sri Lanka is the prime institute in the country responsible for providing leadership for the development of general education with 
+		quality, equity and relevance in a pluralistic society. The Institute is mandated to:</p>
+<ul class=" col-sm-12  col-md-12 col-lg-12" id="paraul">
+<li>design and develop curricula for general and teacher education.</li>
+<li>provide professional development of educational community.</li>
+<li>spearhead change through research and innovation.</li>
+</ul>
+
+
+<p class="col-sm-12  col-md-12 col-lg-12" id="para11">
+
+
+The National Institute of Education (NIE), Sri Lanka was established in 1986 under the provisions of the National Institute of Education Act No. 28 of 1985 and commenced operations at No. 255, Bauddhaloka Mawatha, Colombo 07 and No. 21, High Level Road, Maharagama. The main purpose of creating the NIE was to establish a unique institute for capacity building of educational managers, teacher educators and teachers, design and develop school curricula and conduct policy research on education. The NIE was mandated to advise the Minister of Education on matters related to the development of education in Sri Lanka.
+
+</p>
+	</div>
+</div>
+<!--special-->
+
+<div class="container-fluid">
+
+<h2 class="  col-sm-12 col-md-12 col-lg-12" id="newws">Special</h2>
+	
+
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-12">
+
+<ul id="specialul">
+<li><a href="comingsoon.html">Special Message</a></li>
+<li><a href="comingsoon.html">Download English Medium Syllabus</a></li>
+<li><a href="comingsoon.html">Download English Medium Teacher's Guide</a></li>
+<li><a href="comingsoon.html">Download English Medium Other Material</a></li>
+<li><a href="comingsoon.html">Suggestions for new curricula</a></li>
+<li><a href="comingsoon.html">Gurugedara Educational Channel</a></li>
+	</ul>
+</div>
+</div>
+</div>
+
+<!-- end special-->
+
+<br>
+<br>
+
+
+<!-- education links-->
+<div class="container-fluid">
+
+<h2 class="  col-sm-12 col-md-12 col-lg-12" id="edulink">Educational Link</h2>
+
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-12">
+
+<ul id="edulinkul">
+<li><a href="http://www.moe.gov.lk">Ministry of Education</a></li>
+<li><a href="http://www.doenets.lk">Department of Examinations</a></li>
+<li><a href="http://www.edupub.gov.lk/">Department of Publications</a></li>
+<li><a href="http://nec.gov.lk/en">National Ed. Commission</a></li>
+<li><a href="https://www.edx.org/">www.edx.org</a></li>
+	</ul>
+
+</div>
+</div>
+</div>
+
+<!--end education link-->
+
+
+
+
+
+<!--footer section-->
+
+<div class="container-fluid">
+  
+ <footer>
+                <div class="row col-sm-12 col-md-12 col-lg-12 col-xl-12" style="background-color:blueviolet; margin:auto;padding: 10px;">
+                <p style="color:gold; font-size:small; text-align:center;margin-bottom: 0;" class="col-sm-12 col-md-12 col-lg-12 col-xl-12" >  2020 - Department of IT, National Institute of Education, P.O. Box 21, High Level Road, Maharagama, Sri Lanka</p>
+
+                </div>
+            </footer>
+        
+      </div>
+
+
+</body>
+</html>
