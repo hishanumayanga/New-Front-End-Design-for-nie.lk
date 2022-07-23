@@ -1,0 +1,102 @@
+
+/* IMAGE SLIDE SHOW */
+
+
+#slide{
+  display: block;
+  border-left-width: auto;
+  height: auto;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* OUR VISION MISION*/
+#hed1{
+  overflow: hidden;
+  color:gold;
+  background-color:blueviolet ;
+   text-align:center;
+   z-index: -100;
+}
+
+#hed2{
+  color:gold;
+  background-color:blueviolet ;
+   text-align:center;
+   z-index: -200;
+}
+
+#dg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 90px;
+  border-color: gray;
+}
+
+
+/*paragraph on web site about nie*/
+
+#paraul{
+    text-align: center;
+    list-style: inside;
+    color: black;
+   margin: 5px;
+   font-size: auto;
+   display:block;
+}
+
+
+#para10{
+  font-size: auto;
+  display: block;
+  color: black;
+  
+}
+#para11{
+  font-size: auto;
+  display: block;
+  color: black;
+}
+
+#newws{
+  color:gold;
+  background-color:blueviolet ;
+   text-align:center;
+   z-index: -200;
+
+}
+/*special home*/
+
+#specialul{
+
+  list-style: inside;
+   color: black;
+   margin-left: 20px;
+   margin-right: auto;
+   font-size: auto;
+   display:block;
+
+
+}
+
+/* educational links*/
+
+#edulink{
+  color:gold;
+  background-color:blueviolet ;
+   text-align:center;
+   z-index: -200;
+   
+}
+
+#edulinkul{
+  
+  list-style: inside;
+   color: black;
+   margin-left: 20px;
+   margin-right: auto;
+   font-size: auto;
+   display:block;
+}
